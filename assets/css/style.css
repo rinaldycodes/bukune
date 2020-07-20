@@ -1,0 +1,76 @@
+:root {
+  --main-color: #FFFF00;
+  --second-color: #e6e600;
+  --main-padding: 12px 14px;
+}
+
+body {
+	background: url(../img/bg-logo.jpg);
+	backdrop-filter: brightness(60%);
+}
+
+.btn-cta {
+	background: var(--main-color);
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.btn-cta:hover {
+	background: var(--second-color);
+	font-weight: bold;
+	text-transform: uppercase;
+	color: black;
+}
+
+.navbar a{
+	text-transform: uppercase;
+	font-weight: 500;
+	color: white !important;
+}
+
+.navbar a:hover{
+	text-transform: uppercase;
+	font-weight: 500;
+	color: var(--main-color) !important;
+}
+
+.navbar button.navbar-toggler:hover {
+	color: var(--second-color) !important;
+	background: var(--main-color) !important;
+}
+
+.navbar-nav .navbar-nav a{
+	padding-right: 100px;
+}
+
+.banner .img-open {
+	text-align: center;
+}
+
+.banner .img-open img {
+	object-fit: cover;
+	height: 200px;
+}
+
+#our-menu img{
+	object-fit: cover;
+	height: 200px;
+	width: 100%;
+}
+
+#our-menu .title-menu {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#our-menu .desc-menu {
+	font: 500;
+	font-size: normal;
+}
+
+#team img{
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
